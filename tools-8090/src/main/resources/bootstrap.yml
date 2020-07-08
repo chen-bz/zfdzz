@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: tools-8090
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式配置
+        group: DEV_GROUP # 分组
+#        namespace: 8dc0654d-fe0d-49e7-912f-6e4c912f74fa # 命名空间ID

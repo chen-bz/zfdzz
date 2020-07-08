@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hzy.mapper.SettingsMapper" >
+    <!--获取配置-->
+    <select id="findByTypekey" parameterType="String" resultType="HashMap">
+      select
+			s.s_key,
+			s.s_value,
+			s.type_id,
+			s.name,
+			s.disabled,
+			s.setting_id
+	  from setting_type t left join settings s on s.type_id = t.type_id
+	  where t.type_key = #{type_key} and s.disabled = 0
+    </select>
+    <select id="findOneByTypekey" parameterType="String" resultType="com.hzy.entity.Setting">
+      select
+      s.s_key,
+      s.s_value,
+      s.type_id,
+      s.name,
+      s.disabled,
+      s.setting_id,
+      s.type_json,
+      s.value_type,
+      s.intro
+    from setting_type t left join settings s on s.type_id = t.type_id
+    where t.type_key = #{type_key} and s.s_key = #{s_key} and s.disabled = 0
+    </select>
+</mapper>
