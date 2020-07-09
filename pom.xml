@@ -11,7 +11,7 @@
 
   <modules>
     <module>api-commons</module>
-    <module>member-8080</module>
+    <module>member-8082</module>
     <module>discover-8081</module>
     <module>tools-8090</module>
   </modules>

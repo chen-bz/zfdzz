@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-commons" />
         <module name="discover-8081" />
-        <module name="member-8080" />
+        <module name="member-8082" />
         <module name="tools-8090" />
       </profile>
     </annotationProcessing>
