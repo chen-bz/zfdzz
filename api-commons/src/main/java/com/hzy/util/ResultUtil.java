@@ -1,4 +1,4 @@
-package com.hzy.utils;
+package com.hzy.util;
 
 import cn.hutool.json.JSONObject;
 import com.github.pagehelper.Page;

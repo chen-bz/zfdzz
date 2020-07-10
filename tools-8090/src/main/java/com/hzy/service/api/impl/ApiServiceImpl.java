@@ -2,7 +2,7 @@ package com.hzy.service.api.impl;
 
 import com.hzy.service.api.ApiService;
 import com.hzy.service.base.BaseService;
-import com.hzy.utils.ResultUtil;
+import com.hzy.util.ResultUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

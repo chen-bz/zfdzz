@@ -1,7 +1,7 @@
 package com.hzy.mapper;
 
 import com.hzy.domain.Setting;
-import com.hzy.utils.PageData;
+import com.hzy.util.PageData;
 import java.util.HashMap;
 import java.util.List;
 import org.apache.ibatis.annotations.Mapper;

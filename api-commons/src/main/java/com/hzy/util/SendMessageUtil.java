@@ -1,4 +1,4 @@
-package com.hzy.utils;
+package com.hzy.util;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;

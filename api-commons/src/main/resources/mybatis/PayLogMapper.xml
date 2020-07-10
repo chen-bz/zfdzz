@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hzy.mapper.PayLogMapper" >
+  <resultMap id="BaseResultMap" type="com.hzy.domain.PayLog" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="log_id" property="logId" jdbcType="INTEGER" />
+    <result column="log_no" property="logNo" jdbcType="VARCHAR" />
+    <result column="order_no" property="orderNo" jdbcType="VARCHAR" />
+    <result column="trade_no" property="tradeNo" jdbcType="VARCHAR" />
+    <result column="pay_type" property="payType" jdbcType="VARCHAR" />
+    <result column="order_type" property="orderType" jdbcType="VARCHAR" />
+    <result column="money" property="money" jdbcType="DECIMAL" />
+    <result column="pay_money" property="payMoney" jdbcType="DECIMAL" />
+    <result column="create_time" property="createTime" jdbcType="BIGINT" />
+    <result column="callback_time" property="callbackTime" jdbcType="BIGINT" />
+    <result column="success_time" property="successTime" jdbcType="BIGINT" />
+    <result column="finish_time" property="finishTime" jdbcType="BIGINT" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="unified_result" property="unifiedResult" jdbcType="LONGVARCHAR" />
+    <result column="callback_result" property="callbackResult" jdbcType="LONGVARCHAR" />
+    <result column="query_result" property="queryResult" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

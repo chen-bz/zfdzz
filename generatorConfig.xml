@@ -9,12 +9,12 @@
 		<property name="endingDelimiter" value="`"/>
 
 		<plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-			<property name="mappers" value="com.hzy.utils.MyMapper"/>
+			<property name="mappers" value="com.hzy.util.MyMapper"/>
 		</plugin>
 		<!-- 使用自带序列化插件 -->
 		<plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
 		<!-- 使用自定义的插件 -->
-		<plugin type="com.hzy.utils.LombokPlugin"/>
+		<plugin type="com.hzy.util.LombokPlugin"/>
 
 
 		<jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"

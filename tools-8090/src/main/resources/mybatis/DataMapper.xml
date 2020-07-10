@@ -19,7 +19,7 @@
     <result column="show_info" property="showInfo" jdbcType="INTEGER" />
   </resultMap>
 
-  <select id="queryPushArticle" resultType="com.hzy.domain.Data" parameterType="com.hzy.utils.PageData">
+  <select id="queryPushArticle" resultType="com.hzy.domain.Data" parameterType="com.hzy.util.PageData">
     select
       data_id dataId,
       title,

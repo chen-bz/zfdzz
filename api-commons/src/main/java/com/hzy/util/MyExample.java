@@ -1,4 +1,4 @@
-package com.hzy.utils;
+package com.hzy.util;
 
 import tk.mybatis.mapper.entity.Example;
 

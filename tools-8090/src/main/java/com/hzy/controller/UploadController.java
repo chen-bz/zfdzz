@@ -2,9 +2,9 @@ package com.hzy.controller;
 
 import com.hzy.service.base.BaseService;
 import com.hzy.service.file.UploadService;
-import com.hzy.utils.ImageUtils;
-import com.hzy.utils.ResultUtil;
-import com.hzy.utils.UnZipUtil;
+import com.hzy.util.ImageUtils;
+import com.hzy.util.ResultUtil;
+import com.hzy.util.UnZipUtil;
 import java.io.File;
 import java.util.Map;
 import lombok.extern.slf4j.Slf4j;

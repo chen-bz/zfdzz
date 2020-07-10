@@ -1,4 +1,4 @@
-package com.hzy.utils;
+package com.hzy.util;
 
 import java.text.DateFormat;
 import java.text.ParseException;

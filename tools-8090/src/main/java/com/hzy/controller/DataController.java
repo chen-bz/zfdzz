@@ -2,7 +2,7 @@ package com.hzy.controller;
 
 import com.hzy.domain.Data;
 import com.hzy.service.data.DataService;
-import com.hzy.utils.ResultUtil;
+import com.hzy.util.ResultUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.hzy.utils;
+package com.hzy.util;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

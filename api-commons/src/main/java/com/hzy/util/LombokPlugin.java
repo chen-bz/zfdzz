@@ -1,4 +1,4 @@
-package com.hzy.utils;
+package com.hzy.util;
 
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
