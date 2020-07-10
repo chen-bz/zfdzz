@@ -48,7 +48,7 @@ public class MyExample extends Example {
   /**
    * .
    *
-   * @return tk.mybatis.mapper.entity.Example.Criteria
+   * @return tk.mybatis.mapper.domain.Example.Criteria
    * @Author Chensb
    * @Description TODO
    * @Date 2018/10/18 17:29

@@ -13,7 +13,7 @@
 	  from setting_type t left join settings s on s.type_id = t.type_id
 	  where t.type_key = #{type_key} and s.disabled = 0
     </select>
-    <select id="findOneByTypekey" parameterType="String" resultType="com.hzy.entity.Setting">
+    <select id="findOneByTypekey" parameterType="String" resultType="com.hzy.domain.Setting">
       select
       s.s_key,
       s.s_value,

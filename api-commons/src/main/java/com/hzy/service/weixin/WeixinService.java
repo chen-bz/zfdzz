@@ -1,6 +1,6 @@
 package com.hzy.service.weixin;
 
-import com.hzy.entity.MsgTemplate;
+import com.hzy.domain.MsgTemplate;
 import java.io.IOException;
 import java.util.Map;
 import javax.servlet.http.HttpServletResponse;

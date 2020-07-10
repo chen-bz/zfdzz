@@ -21,7 +21,7 @@ public class DemoController {
   private String port;
   @Resource
   private RestTemplate restTemplate;
-  @Value("${service-url.nacos-user-service}")
+  @Value("${service-url.tools-service}")
   private String serverURL;
 
   @GetMapping("/demo/nacos/{id}")

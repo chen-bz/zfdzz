@@ -1,4 +1,4 @@
-package com.hzy.entity;
+package com.hzy.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Id;

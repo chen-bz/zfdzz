@@ -1,7 +1,7 @@
 package com.hzy.service.data;
 
 
-import com.hzy.entity.Data;
+import com.hzy.domain.Data;
 import java.util.Map;
 
 /**

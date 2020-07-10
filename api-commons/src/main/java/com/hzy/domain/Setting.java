@@ -1,4 +1,4 @@
-package com.hzy.entity;
+package com.hzy.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

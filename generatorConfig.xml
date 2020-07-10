@@ -28,7 +28,7 @@
 			<property name="nullCatalogMeansCurrent" value="true"/>
 		</jdbcConnection>
 		<!-- 对于生成的pojo所在包 -->
-		<javaModelGenerator targetPackage="com.hzy.entity" targetProject="api-commons/src/main/java"/>
+		<javaModelGenerator targetPackage="com.hzy.domain" targetProject="api-commons/src/main/java"/>
 		<!-- 对于生成的mapper所在目录 -->
 		<sqlMapGenerator targetPackage="mybatis" targetProject="api-commons/src/main/resources"/>
 		<!-- 配置mapper对应的java映射 -->

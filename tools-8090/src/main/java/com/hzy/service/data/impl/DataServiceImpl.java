@@ -1,8 +1,8 @@
 package com.hzy.service.data.impl;
 
 import com.github.pagehelper.Page;
-import com.hzy.entity.Data;
-import com.hzy.entity.DataType;
+import com.hzy.domain.Data;
+import com.hzy.domain.DataType;
 import com.hzy.mapper.DataMapper;
 import com.hzy.mapper.DataTypeMapper;
 import com.hzy.service.base.BaseService;

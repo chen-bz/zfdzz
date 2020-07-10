@@ -1,7 +1,7 @@
 package com.hzy.mapper;
 
 
-import com.hzy.entity.DataType;
+import com.hzy.domain.DataType;
 import com.hzy.utils.MyMapper;
 import java.util.Map;
 import org.apache.ibatis.annotations.Mapper;

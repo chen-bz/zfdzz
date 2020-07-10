@@ -3,7 +3,7 @@ package com.hzy.service.weixin.impl;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
-import com.hzy.entity.MsgTemplate;
+import com.hzy.domain.MsgTemplate;
 import com.hzy.service.base.BaseService;
 import com.hzy.service.weixin.WeixinService;
 import com.hzy.utils.PageData;

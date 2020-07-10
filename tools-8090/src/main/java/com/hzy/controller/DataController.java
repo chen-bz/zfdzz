@@ -1,6 +1,6 @@
 package com.hzy.controller;
 
-import com.hzy.entity.Data;
+import com.hzy.domain.Data;
 import com.hzy.service.data.DataService;
 import com.hzy.utils.ResultUtil;
 import lombok.extern.slf4j.Slf4j;

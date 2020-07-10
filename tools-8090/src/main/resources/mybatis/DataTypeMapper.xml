@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.hzy.mapper.DataTypeMapper" >
-  <resultMap id="BaseResultMap" type="com.hzy.entity.DataType" >
+  <resultMap id="BaseResultMap" type="com.hzy.domain.DataType" >
     <!--
       WARNING - @mbg.generated
     -->

@@ -1,6 +1,6 @@
 package com.hzy.mapper;
 
-import com.hzy.entity.Setting;
+import com.hzy.domain.Setting;
 import com.hzy.utils.PageData;
 import java.util.HashMap;
 import java.util.List;
