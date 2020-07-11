@@ -5,6 +5,7 @@ import com.hzy.domain.pay.RefundOrder;
 import com.hzy.util.PageData;
 import java.util.List;
 import java.util.Map;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * @类名 PublicMapper
@@ -13,6 +14,7 @@ import java.util.Map;
  * @日期 2018/10/29 20:00
  * @版本号 1.0
  */
+@Mapper
 public interface PublicMapper {
   /**
    * @作者 Chensb

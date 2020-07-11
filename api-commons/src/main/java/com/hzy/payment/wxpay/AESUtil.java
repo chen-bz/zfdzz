@@ -3,7 +3,7 @@
  */
 package com.hzy.payment.wxpay;
 
-import com.hzy.util.MD5;
+import cn.hutool.crypto.SecureUtil;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
@@ -35,7 +35,7 @@ public class AESUtil {
 	 */
 	public static String encryptData(String data, String keys) throws Exception {
 		if (key == null) {
-			key = new SecretKeySpec(MD5.md5(keys).toLowerCase().getBytes(), ALGORITHM);
+			key = new SecretKeySpec(SecureUtil.md5(keys).toLowerCase().getBytes(), ALGORITHM);
 		}
 		// 创建密码器
 		Cipher cipher = Cipher.getInstance(ALGORITHM_MODE_PADDING);
@@ -53,7 +53,7 @@ public class AESUtil {
 	 */
 	public static String decryptData(String base64Data, String keys) throws Exception {
 		if (key == null) {
-			key = new SecretKeySpec(MD5.md5(keys).toLowerCase().getBytes(), ALGORITHM);
+			key = new SecretKeySpec(SecureUtil.md5(keys).toLowerCase().getBytes(), ALGORITHM);
 		}
 		Cipher cipher = Cipher.getInstance(ALGORITHM_MODE_PADDING);
 		cipher.init(Cipher.DECRYPT_MODE, key);

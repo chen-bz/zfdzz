@@ -44,6 +44,10 @@ public class DemoController {
   }
   @GetMapping(value = "/member/demo/nacos/{id}")
   public String paymentInfo(@PathVariable("id") Integer id) {
+    String str = "";
+    if (str.isEmpty()) {
+
+    }
     return restTemplate.getForObject(memberServerURL + "/demo/nacos/" + id, String.class);
   }
 }
